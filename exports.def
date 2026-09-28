@@ -1,0 +1,28 @@
+LIBRARY APlayer
+EXPORTS
+    aplayer_close                   @1
+    aplayer_create                  @2
+    aplayer_destroy                 @3
+    aplayer_get_buffer_progress     @4
+    aplayer_get_config              @5
+    aplayer_get_config_list         @6
+    aplayer_get_duration            @7
+    aplayer_get_graph               @8
+    aplayer_get_position            @9
+    aplayer_get_state               @10
+    aplayer_get_version             @11
+    aplayer_get_video_height        @12
+    aplayer_get_video_width         @13
+    aplayer_get_volume              @14
+    aplayer_init                    @15
+    aplayer_is_seeking              @16
+    aplayer_log                     @17
+    aplayer_open                    @18
+    aplayer_pause                   @19
+    aplayer_play                    @20
+    aplayer_set_callback            @21
+    aplayer_set_config              @22
+    aplayer_set_position            @23
+    aplayer_set_view                @24
+    aplayer_set_volume              @25
+    aplayer_uninit                  @26
